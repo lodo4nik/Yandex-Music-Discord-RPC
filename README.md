@@ -2,7 +2,9 @@
 
 [![N|Solid](https://i.imgur.com/sDQBibw.png)](https://i.imgur.com/sDQBibw.png)
 
-Yandex Music Discord RPC - простой RPC для Discord, показывающий, что вы слушаете на данный момент в Yandex Music (Яндекс.Музыка). 
+****
+
+**Yandex Music Discord RPC** - простой RPC для Discord, показывающий, что вы слушаете на данный момент в Yandex Music (Яндекс.Музыка). 
 
 ## Функции
 
