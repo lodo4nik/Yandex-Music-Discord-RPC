@@ -5,7 +5,7 @@ import time
 
 from config import access_token
 
-DELAY = 3
+DELAY = 3 # Указать задержку
 
 def getTrack():
     client = Client(access_token).init()
@@ -24,7 +24,7 @@ def getTrack():
 
 client_id = '1079901231817965598'
 RPC = Presence(client_id)
-RPC.connect() # mq
+RPC.connect()
 
 while True:
     try:
