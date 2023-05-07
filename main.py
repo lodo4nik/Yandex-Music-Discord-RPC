@@ -35,7 +35,7 @@ while True:
             details="" + track[1],
             large_image=track[3],
             large_text=track[1],
-            small_image="https://free-png.ru/wp-content/uploads/2021/12/free-png.ru-60.png",
+            small_image="ym_avatar",
             small_text=track[4] + ":" + track[5]
         )
     except (UnauthorizedError, UnicodeEncodeError):
@@ -45,7 +45,7 @@ while True:
     except:
         RPC.update(
             state="Yandex Music RPC by lodo4nik",
-            large_image="https://free-png.ru/wp-content/uploads/2021/12/free-png.ru-60.png",
+            large_image="ym_avatar",
             large_text="Yandex Music",
             buttons=[{"label": "Repository", "url": "https://github.com/lodo4nik"}],
         )
