@@ -5,7 +5,7 @@ import time
 
 from config import access_token
 
-DELAY = 3 # Указать задержку
+DELAY = 3 # Указать задержку (в секундах)
 
 def getTrack():
     client = Client(access_token).init()
