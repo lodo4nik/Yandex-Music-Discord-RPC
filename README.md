@@ -20,7 +20,7 @@
 - `cd Yandex-Music-Discord-RPC`
 - `pip install -r requirements.txt`
 - Указываем acces_token в файл `config.py`
-- `python3 main.py
+- `python3 main.py`
 
 ## Важно
 - У Вас должен быть установлен Discord
