@@ -34,8 +34,8 @@ Yandex Music Discord RPC - простой RPC для Discord, показываю
 Напишите в Discord: `лодка#4433`
 
 ## Лицензия
-**Yandex Music Discord RPC** распространяется под лицензией GPL-3.0. Подробнее в файле [LICENSE](https://github.com/lodo4nik/Yandex-Music-Discord-RPC/blob/main/LICENSE)
-**Yandex Music API** - LGPL-3
+**Yandex Music Discord RPC** распространяется под лицензией GPL-3.0. Подробнее в файле [LICENSE](https://github.com/lodo4nik/Yandex-Music-Discord-RPC/blob/main/LICENSE)__
+**Yandex Music API** - LGPL-3__
 **Яндекс.Музыка** - [Ссылка](https://yandex.ru/legal/music_mobile_agreement/)
 
 >**Оригинальный код написан NeyQ и распространяется под лицензией Apache**. Ссылка на репозиторий: https://github.com/NeynQ/Discord-YM-RPC
