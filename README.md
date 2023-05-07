@@ -2,7 +2,9 @@
 
 [![N|Solid](https://i.imgur.com/sDQBibw.png)](https://i.imgur.com/sDQBibw.png)
 
-Yandex Music Discord RPC - простой RPC для Discord, показывающий, что вы слушаете на данный момент в Yandex Music (Яндекс.Музыка). 
+****
+
+**Yandex Music Discord RPC** - простой RPC для Discord, показывающий, что вы слушаете на данный момент в Yandex Music (Яндекс.Музыка). 
 
 ## Функции
 
@@ -18,19 +20,19 @@ Yandex Music Discord RPC - простой RPC для Discord, показываю
 - `cd Yandex-Music-Discord-RPC`
 - `pip install -r requirements.txt`
 - Указываем acces_token в файл `config.py`
-- `python3 main.py
+- `python3 main.py`
 
 ## Важно
 - У Вас должен быть установлен Discord
 
 ## FAQ
-> **Где получить acces_token?** 
+> **Где получить acces_token?**\
 Об этом можно узнать в документации библиотеки [Yandex Music API](https://yandex-music.readthedocs.io/en/main/token.html)
 
->**С какой задержкой обновляется трек?**
+>**С какой задержкой обновляется трек?**\
 По умолчанию - 3 секунды. Указать свою задержку можно в `main.py`
 
->**Остались вопросы?**
+>**Остались вопросы?**\
 Напишите в Discord: `лодка#4433`
 
 ## Лицензия
