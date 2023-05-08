@@ -6,9 +6,10 @@ import json
 
 with open('config.json') as f:
     data = json.load(f)
+print(data)
 token = data['token']
-
-DELAY = 3 # Указать задержку (в секундах)
+update_delay = data['update_delay']
+start_delay = data['start_delay']
 
 def getTrack():
     client = Client(token).init()
@@ -25,6 +26,7 @@ def getTrack():
     duration_sec = str((last_track.duration_ms // 1000) % 60)
     return artists, title, url, image_link, duration_min, duration_sec
 
+time.sleep(start_delay)
 client_id = '1079901231817965598'
 RPC = Presence(client_id)
 RPC.connect()
@@ -52,5 +54,5 @@ while True:
             large_text="Yandex Music",
             buttons=[{"label": "Repository", "url": "https://github.com/lodo4nik"}],
         )
-    time.sleep(DELAY)
+    time.sleep(update_delay)
 input("Press enter to close program")

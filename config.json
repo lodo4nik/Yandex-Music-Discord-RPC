@@ -1,3 +1,5 @@
 {
-    "token": "ваш_токен"
+    "token": "ваш_токен",
+    "update_delay": 3,
+    "start_delay": 0
 }
