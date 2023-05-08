@@ -6,7 +6,6 @@ import json
 
 with open('config.json') as f:
     data = json.load(f)
-print(data)
 token = data['token']
 update_delay = data['update_delay']
 start_delay = data['start_delay']
