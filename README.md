@@ -19,7 +19,7 @@
     >Замечание: Если отсутствует git, скачайте архив
 - `cd Yandex-Music-Discord-RPC`
 - `pip install -r requirements.txt`
-- Указываем acces_token в файл `config.py`
+- Указываем token в файл `config.json`
 - `python3 main.py`
 
 ## Важно

@@ -2,13 +2,16 @@ from pypresence import Presence
 from yandex_music import Client
 from yandex_music.exceptions import UnauthorizedError
 import time
+import json
 
-from config import access_token
+with open('config.json') as f:
+    data = json.load(f)
+token = data['token']
 
 DELAY = 3 # Указать задержку (в секундах)
 
 def getTrack():
-    client = Client(access_token).init()
+    client = Client(token).init()
     queues = client.queues_list()
     last_queue = client.queue(queues[0].id)
     last_track_id = last_queue.get_current_track()
@@ -39,8 +42,8 @@ while True:
             small_text=track[4] + ":" + track[5]
         )
     except (UnauthorizedError, UnicodeEncodeError):
-        print("Неверный access_token!")
-        print("Введите верный токен в файле config.py!")
+        print("Неверный токен!")
+        print("Введите верный токен в файле config.json!")
         break
     except:
         RPC.update(
@@ -50,3 +53,4 @@ while True:
             buttons=[{"label": "Repository", "url": "https://github.com/lodo4nik"}],
         )
     time.sleep(DELAY)
+input("Press enter to close program")
